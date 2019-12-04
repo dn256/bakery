@@ -19,7 +19,7 @@ Route::get('/home', 'DefaultController@loadHome') -> name('home');
 
 Route::get('/menu', 'DefaultController@loadMenu') -> name('menu');
 
-Route::get('/products','DefaultController@loadProducts') -> name('products');
+Route::get('/products','ProductController@index') -> name('products');
 
 Route::get('/productdetail','DefaultController@loadProductDetails') -> name('productdetail');
 

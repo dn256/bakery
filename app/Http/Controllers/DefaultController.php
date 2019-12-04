@@ -24,7 +24,7 @@ class DefaultController extends Controller
     }
 
     public function loadProductDetails(){
-        return view('productdetail');
+        return view('ProductPage.show');
     }
 
     public function loadCart(){

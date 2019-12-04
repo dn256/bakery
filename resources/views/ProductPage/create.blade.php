@@ -6,41 +6,66 @@
 @section('script')
     <script>
         var count = 0;
-        $('input[type="file"]').each(function(){
-            var $file = $(this),
-                $label = $file.next('label'),
-                $labelText = $label.find('span'),
-                labelDefault = $labelText.text();
-
-            $file.on('change', function(event){
-                var fileName = $file.val().split( '\\' ).pop(),
-                    tmppath = URL.createObjectURL(event.target.files[0]);
-                if( fileName ){
-                    count++;
-                    $label
-                        .addClass('file-ok')
-                        .css('background-image', 'url(' + tmppath + ')');
-                    $labelText.text(fileName);
-                }else{
-                    $label.removeClass('file-ok');
-                    $labelText.text(labelDefault);
-                }
-
-                console.log("abc: " +count);
-
-                createDiv();
-            });
+        $(document).ready(() => {
+            createUploadImg();
         });
+
+        function createUploadImg() {
+            $('input[type="file"]').each(function(){
+                var $file = $(this),
+                    $label = $file.next('label'),
+                    $labelText = $label.find('span'),
+                    labelDefault = $labelText.text();
+
+                $file.on('change', function(event){
+                    var fileName = $file.val().split( '\\' ).pop(),
+                        tmppath = URL.createObjectURL(event.target.files[0]);
+                    if( fileName ){
+                        count++;
+                        $label
+                            .addClass('file-ok')
+                            .css('background-image', 'url(' + tmppath + ')');
+                        $labelText.text(fileName);
+                        createDiv();
+                    }else{
+                        $label.removeClass('file-ok');
+                        $labelText.text(labelDefault);
+                    }
+                });
+            });
+        }
 
         function createDiv() {
             var newDiv = document.createElement('div');
             newDiv.className = 'wrap-custom-file';
             newDiv.innerHTML = "<input type='file' name='inputImage"+count+"' id='inputImage"+count+"' accept='.jpg, .png'/>\n"+
-                    "<label for='inputImage"+count+"'>\n" +
-                    "<span>Chọn hình ảnh sản phẩm</span>\n" +
-                    "<i class='fa fa-plus-circle'></i>\n" +
-                    "</label>";
+                "<label for='inputImage"+count+"'>\n" +
+                "<span>Chọn hình ảnh sản phẩm</span>\n" +
+                "<i class='fa fa-plus-circle'></i>\n" +
+                "</label>";
             document.getElementById('formContainer').appendChild(newDiv);
+
+            $('input[type="file"]').each(function(){
+                var $file = $(this),
+                    $label = $file.next('label'),
+                    $labelText = $label.find('span'),
+                    labelDefault = $labelText.text();
+
+                $file.on('change', function(event){
+                    var fileName = $file.val().split( '\\' ).pop(),
+                        tmppath = URL.createObjectURL(event.target.files[0]);
+                    if( fileName ){
+                        count++;
+                        $label
+                            .addClass('file-ok')
+                            .css('background-image', 'url(' + tmppath + ')');
+                        $labelText.text(fileName);
+                    }else{
+                        $label.removeClass('file-ok');
+                        $labelText.text(labelDefault);
+                    }
+                });
+            });
         }
     </script>
 @stop

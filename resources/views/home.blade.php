@@ -71,7 +71,7 @@
                              data-type="text"
                              data-responsive_offset="on"
                              data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                            <a class="main_btn" href="{{route('productdetail')}}">Purchase now</a>
+                            <a class="main_btn" href="{{route('productdetail')}}">Đặt ngay</a>
                         </div>
                     </div>
                 </li>
@@ -218,7 +218,7 @@
     <section class="service_we_offer_area gray_service white_bg p_100">
         <div class="container">
             <div class="single_b_title">
-                <h2>Services We offer</h2>
+                <h2>Tiệm chúng tôi phục vụ</h2>
             </div>
             <div class="row we_offer_inner">
                 <div class="col-lg-4">
@@ -228,7 +228,7 @@
                                 <i class="flaticon-food-6"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Cookies Cakes</h4></a>
+                                <a href="#"><h4>Bánh nướng</h4></a>
                                 <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                                 <i class="flaticon-food-5"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Tasty Cupcakes</h4></a>
+                                <a href="#"><h4>Bánh Cupcake</h4></a>
                                 <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                                 <i class="flaticon-food-3"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Wedding Cakes</h4></a>
+                                <a href="#"><h4>Bánh cưới</h4></a>
                                 <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                                 <i class="flaticon-book"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Awesome Recipes</h4></a>
+                                <a href="#"><h4>Theo yêu cầu</h4></a>
                                 <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
                             </div>
                         </div>
@@ -280,8 +280,8 @@
                                 <i class="flaticon-food-4"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Menu Planner</h4></a>
-                                <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
+                                <a href="#"><h4>Tiệc bánh</h4></a>
+                                <p>Lên thực đơn cho các buổi tiệc - hội nghị có teabreak bánh ngọt và các buổi buffet bánh.</p>
                             </div>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                                 <i class="flaticon-transport"></i>
                             </div>
                             <div class="media-body">
-                                <a href="#"><h4>Home Delivery</h4></a>
+                                <a href="#"><h4>Chuyển bánh tận nhà</h4></a>
                                 <p>Lorem Ipsum is  simply my text of the printing and Ipsum is simply text of the Ipsum is simply.</p>
                             </div>
                         </div>
@@ -311,7 +311,7 @@
                 <div class="title_view_all">
                     <div class="float-left">
                         <div class="main_w_title">
-                            <h2>Our Featured Cakes</h2>
+                            <h2>Những loại bánh nổi bật của tiệm</h2>
                             <h5> Seldolor sit amet consect etur</h5>
                         </div>
                     </div>
@@ -384,7 +384,7 @@
                             <img src="image/recipe/recipe-1.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Special Recipe</h4>
+                            <h4>Công thức của riêng tiệm</h4>
                             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur uis autem vel eum.</p>
                             <a class="w_view_btn" href="#">View Details</a>
                         </div>
@@ -396,7 +396,7 @@
                             <img src="image/recipe/recipe-1.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Special Recipe</h4>
+                            <h4>Công thức của riêng tiệm</h4>
                             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur uis autem vel eum.</p>
                             <a class="w_view_btn" href="#">View Details</a>
                         </div>
@@ -408,7 +408,7 @@
                             <img src="image/recipe/recipe-1.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Special Recipe</h4>
+                            <h4>Công thức của riêng tiệm</h4>
                             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur uis autem vel eum.</p>
                             <a class="w_view_btn" href="#">View Details</a>
                         </div>
@@ -420,7 +420,7 @@
                             <img src="image/recipe/recipe-1.png" alt="">
                         </div>
                         <div class="media-body">
-                            <h4>Special Recipe</h4>
+                            <h4>Công thức của riêng tiệm</h4>
                             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi equatur uis autem vel eum.</p>
                             <a class="w_view_btn" href="#">View Details</a>
                         </div>
@@ -438,7 +438,7 @@
                 <div class="col-lg-3 col-6">
                     <div class="chef_text_item">
                         <div class="main_title">
-                            <h2>Our Chefs</h2>
+                            <h2>Thành viên của tiệm</h2>
                             <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor sit ametion.</p>
                         </div>
                     </div>
@@ -497,7 +497,7 @@
     <section class="new_arivals_area p_100">
         <div class="container">
             <div class="single_pest_title">
-                <h2>New Arrivals</h2>
+                <h2>Tiệm vừa ra mắt những loại sau</h2>
             </div>
             <div class="row arivals_inner">
                 <div class="col-lg-6 col-sm-7">
@@ -570,122 +570,6 @@
         </div>
     </section>
     <!--================End New Arivals Area =================-->
-
-    <!--================Client Says Area =================-->
-   {{-- <section class="client_says_area p_100">
-        <div class="container">
-            <div class="client_says_inner">
-                <div class="c_says_title">
-                    <h2>What Our Client Says</h2>
-                </div>
-                <div class="client_says_slider owl-carousel">
-                    <div class="item">
-                        <div class="media">
-                            <div class="d-flex">
-                                <img src="image/client/client-1.png" alt="">
-                                <h3>“</h3>
-                            </div>
-                            <div class="media-body">
-                                <p>Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                                <h5>- Robert joe</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="media">
-                            <div class="d-flex">
-                                <img src="image/client/client-1.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <p>Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                                <h5>- Robert joe</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="media">
-                            <div class="d-flex">
-                                <img src="image/client/client-1.png" alt="">
-                            </div>
-                            <div class="media-body">
-                                <p>Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                                <h5>- Robert joe</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
-    <!--================End Client Says Area =================-->
-
-    <!--================Latest News Area =================-->
-    {{--<section class="latest_news_area golden_bg p_100">
-        <div class="container">
-            <div class="main_title">
-                <h2>Latest Blog</h2>
-                <h5>an turn into your instructor your helper, your </h5>
-            </div>
-            <div class="row latest_news_inner">
-                <div class="col-lg-4 col-md-6">
-                    <div class="l_news_image">
-                        <div class="l_news_img">
-                            <img class="img-fluid" src="image/blog/latest-news/l-news-1.jpg" alt="">
-                        </div>
-                        <div class="l_news_hover">
-                            <a href="#"><h5>Oct 15, 2016</h5></a>
-                            <a href="#"><h4>Nanotechnology immersion along the information</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="l_news_item">
-                        <div class="l_news_img">
-                            <img class="img-fluid" src="image/blog/latest-news/l-news-2.jpg" alt="">
-                        </div>
-                        <div class="l_news_text">
-                            <a href="#"><h5>Oct 15, 2016</h5></a>
-                            <a href="#"><h4>Nanotechnology immersion along the information</h4></a>
-                            <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor sit ametion ....</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="l_news_item">
-                        <div class="l_news_img">
-                            <img class="img-fluid" src="image/blog/latest-news/l-news-3.jpg" alt="">
-                        </div>
-                        <div class="l_news_text">
-                            <a href="#"><h5>Oct 15, 2016</h5></a>
-                            <a href="#"><h4>Nanotechnology immersion along the information</h4></a>
-                            <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor sit ametion ....</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
-    <!--================End Latest News Area =================-->
-
-    <!--================Bakery Video Area =================-->
-    {{--<section class="bakery_video_area">
-        <div class="container">
-            <div class="video_inner">
-                <h3>Real Taste</h3>
-                <p>A light, sour wheat dough with roasted walnuts and freshly picked rosemary, thyme, poppy seeds, parsley and sage</p>
-                <div class="media">
-                    <div class="d-flex">
-                        <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="flaticon-play-button"></i></a>
-                    </div>
-                    <div class="media-body">
-                        <h5>Watch intro video <br />about us</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
-    <!--================End Bakery Video Area =================-->
-
 
     <!--================Search Box Area =================-->
     <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
